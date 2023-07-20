@@ -246,7 +246,7 @@ class _LocationScreenState extends State<LocationScreen> {
                       ],
                     ),
                   ),
-                 /* Container(
+                  Container(
                     width: MediaQuery.of(context).copyWith().size.width / 3,
                     child: ElevatedButton(
                         child: Container(
@@ -267,7 +267,7 @@ class _LocationScreenState extends State<LocationScreen> {
                           ),
                         ),
                         onPressed: _getForecastData),
-                  ),*/
+                  ),
                   Container(
                     padding: EdgeInsets.all(25.0),
                     child: Column(
