@@ -7,6 +7,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:open_settings/open_settings.dart';
 import 'package:provider/provider.dart';
 import 'package:weather_app/provider/location_screen_provider.dart';
+import 'package:weather_app/screens/city_screen.dart';
 import 'package:weather_app/screens/forecast_screen.dart';
 import 'package:weather_app/services/location_info.dart';
 import 'package:weather_app/services/weather.dart';
@@ -184,7 +185,7 @@ class _LocationScreenState extends State<LocationScreen> {
                                 ),
                               ),
                             ),
-                        /*    Expanded(
+                            Expanded(
                               child: IconButton(
                                   icon: Icon(
                                     Icons.search,
@@ -201,7 +202,7 @@ class _LocationScreenState extends State<LocationScreen> {
                                       }),
                                     );
                                   }),
-                            ),*/
+                            ),
                           ],
                         ),
                         Center(
